@@ -1,10 +1,12 @@
+/* Gradient background  */
+
 body {
     background: rgb(4, 134, 201);
     background: linear-gradient(0deg, rgba(4, 134, 201, 1) 0%, rgba(5, 199, 242, 1) 100%) fixed;
 
 }
 
-
+/* Sizes of box and basic font */
 .container {
     max-width: 500px;
     margin: auto;
@@ -12,22 +14,18 @@ body {
     letter-spacing: 0.5px;
 
 }
-
+/* Active  */
 .status {
     color: greenyellow;
     font-size: 30px;
 }
-
-.offline{
-    color: red;
-    font-size: 30px;
-}
-
+/* Header Avatar */
 img {
     max-width: 100%;
     border-radius: 50%;
 }
 
+/* Header  */
 .msg-header {
     width: 100%;
     height: 15%;
@@ -36,9 +34,13 @@ img {
     background-color: #05C7F2;
 }
 
+/* Pointer on header */
+
 .msg-header:hover {
     cursor: pointer;
 }
+
+
 
 .msg-header-img {
     border-radius: 50%;
@@ -47,6 +49,8 @@ img {
     margin-top: 12px;
     float: left;
 }
+
+/* Word Active in header  */
 
 .active {
     width: 120px;
@@ -69,6 +73,8 @@ img {
 
 }
 
+/*  Header Icons */
+
 .header-icons {
     width: 120px;
     float: right;
@@ -77,18 +83,19 @@ img {
 
 }
 
-
-
 .header-icons .fas {
     color: #fff;
     cursor: pointer;
     margin: 10px;
 }
 
+/* Chat Box */
 .chat-page {
-    padding: 0 0 -0 0;
+    padding: 0 0 0 0;
     overflow: auto;
 }
+
+/* Income and outcome messages */
 
 .msg-inbox {
     overflow: hidden;
@@ -132,6 +139,7 @@ img {
     width: 100%;
 }
 
+/* Date and time  */
 .time {
     color: #777;
     display: block;
