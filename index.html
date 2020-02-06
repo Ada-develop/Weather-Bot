@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Bot</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/434c03cf1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header  -->
+
+        <div class="msg-header" data-toggle="collapse" data-target="#collapse">
+            <div class="msg-header-img">
+                <img src="IMG/avatar.jpg" alt="Avatar">
+            </div>
+            <div class="active">
+                <h4>Ada-bot</h4>
+                <h6>Active <span class="status">•</span></h6>
+            </div>
+            <!-- Header icons -->
+            <div class="header-icons">
+                <i class="fas fa-bolt"></i>
+                <i class="fas fa-times-circle"></i>
+                <i class="fas fa-info-circle"></i>
+            </div>
+        </div>
+        <!-- Chat Box  -->
+
+        <div id="collapse" class="collapse in  chat-page">
+            <div class="msg-inbox">
+                <div class="chats">
+                    <div class="msg-page">
+                        <!-- Bot's income messages  -->
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="IMG/avatar.jpg" alt="Avatar">
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p>Greetings Internet User! I was created to answer about weather conditions in any city in the world, just write name of the city that you interested in. I'am listening :) </p>
+                                    <span class="time"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Outgoing Messages of user -->
+                        
+
+
+                    </div>
+
+                </div>
+                <!-- Input bar area -->
+                <div class="msg-bottom">
+                    <!-- Icons bottom -->
+                    <!-- <div class="bottom-icons">
+                <i class="fas fa-bolt"></i>
+                <i class="fas fa-times-circle"></i>
+                <i class="fas fa-info-circle"></i>
+            </div> -->
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Write message...">
+                        <span class="input-group-text"><i class="fab fa-telegram-plane"></i></span>
+                        <div class="input-group-append">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+
+</html>
