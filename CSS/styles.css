@@ -95,7 +95,7 @@ img {
     overflow: auto;
 }
 
-/* Income and outcome messages */
+/* Income messages */
 
 .msg-inbox {
     overflow: hidden;
@@ -147,6 +147,8 @@ img {
     margin: 8px 0 0;
 }
 
+/*  Outcome messages  */
+
 .outgoing-chats {
     overflow: hidden;
     margin: 20px 20px;
@@ -181,6 +183,8 @@ img {
     width: 92%;
     margin: 20px 0 20px 0;
 }
+
+/* Bottom and input bar  */
 
 .msg-bottom {
     border-bottom-style: solid;
