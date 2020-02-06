@@ -100,12 +100,11 @@ input.addEventListener("blur", function () {
     inputBar.setAttribute("style", "width: 50%; transition:width 0.4s ease-out;");
 })
 
-//Bot's displaying message time Offline/Active status
 
 header.addEventListener("click", function () {
     var date = new Date();
     botTime.textContent = date.toUTCString();
-    status.classList.remove("status");
+
 });
 
 //Income message sound, beeep! c(:
